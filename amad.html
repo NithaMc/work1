@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main">  
+        <div class="image">
+        <img src="amad.png" alt="" height="200px">
+        <p style="font-size: small; padding-bottom: 20px; margin-left: 25px;"><SPAN style="color: chocolate;">_</SPAN>HOME</p>
+        <p style="font-size: small; padding-bottom: 20px; margin-left: 25px;">SHOP</p>
+        <p style="font-size: small; padding-bottom: 20px; margin-left: 25px;">PRODUCT</p>
+          <p style="font-size: small; padding-bottom: 20px; margin-left: 25px;">CART</p>
+          <p style="font-size: small; padding-bottom: 20px; margin-left: 25px;">CHECKOUT</p>
+          <BUTton style="background-color: yellow;width: 100px; padding-bottom: 10px; padding-top: 10px; margin-bottom: 20px;margin-left: 25px; " class="button">% Discount%</BUTton><br>
+          <BUTton style="background-color:black;width: 100px; color: antiquewhite;margin-left: 25px;margin-bottom: 50px; "  class="button">New this weeek</BUTton>
+          
+            <div class="CART" style="margin-top: 50px;">
+                <div><i style="padding-top: 15px; " class="fa fa-shopping-cart"></i></div>
+                <div><p style="font-size: small; ">CART(0)</p></div>
+            </div>
+            <div class="CART">
+                <div><i style="padding-top: 15px;" class="fa fa-star"></i></div>
+                <div><p style="font-size: small;">FAVOURITE</p></div>
+            </div>
+            <div class="CART">
+                <div><i style="padding-top: 15px;" class="fa fa-search"></i></div>
+                <div><p style="font-size: small;">SEARCH</p></div>
+            </div>
+            <div class="social" style="padding-top: 100px;">
+                <div><i class="fa fa-pinterest"></i></div>
+                <div><i class="fa fa-twitter"></i></div>
+                <div><i class="fa fa-instagram"></i></div>
+                <div><i class="fa fa-facebook"></i></div>
+                
+
+            </div>
+
+        </div>
+    
+          <div class="grid">
+            <div class="a">
+                <img style="width: 300px; height: 300px;" src="chair2.jpeg" alt="">
+               <span>
+                from S180 <br>
+               <b>Modern Chair</b></span> 
+            </div>
+    
+            <div class="a">
+                <img style="width: 300px; height: 300px;" src="plant1.jpeg" alt="">
+               <span>from S180 <br>
+                <b>Minimalistic Plant Pot</b>
+               </span>
+            </div>
+            <div class="a">
+                <img style="width: 300px; height: 300px;" src="chair3.jpeg" alt="">
+                <span>from S318 <br>
+                   <b> Modern Chair</b>
+                </span>
+               
+            </div>
+            <div class="a">
+                <img style="width: 300px; height: 300px;" src="pot1.jpeg" height="220px" width="200px">
+                <span>from S18 <br>
+                <b> plant Pot</b>
+                </span>
+                
+            </div>
+            <div class="a">
+                <img style="width: 300px; height: 300px;" src="table.webp" alt="" width="200px" height="250px">
+                <span>From S320 <br>
+                  <b>  Small Table</b>
+                </span>
+    
+            </div>
+    
+            <div class="a">
+                <img style="width: 300px; height: 300px;" src="night stand.jpeg" alt="">
+              <span>From S320 <br>
+                <b>Night stand</b>
+              </span>
+                
+            </div>
+    
+            <div class="a">
+                <img style="width: 300px; height: 300px;" src="chair3.jpeg" alt="">
+                <span>From S318 <br>
+                <b> ModernRocking Chair</b>
+                </span>
+              
+            </div>
+    
+            <div class="a">
+                <img style="width: 300px; height: 300px;" src="homedeco.jpeg" alt="">
+                <span>From S180 <br>
+                <b>Home Deco</b>
+            </span>
+            </div>
+    
+            <div class="a">
+                <img style="width: 300px; height: 300px;" src="metalic chair.jpeg" alt="">
+               <span>From S180 <br>
+            <b> Metallic Chair</b></span> 
+            </div>
+        </div>
+    </div>
+            <style>
+                .main{
+                    display:grid;
+                    grid-template-columns: 300px auto;
+                    
+                }
+                .grid{
+                    display: grid;
+                    grid-template-columns: 300px 300px auto;
+                    object-position: top;
+                    gap: -5px;
+                }
+                .a{
+                    width: fit-content;;
+                    height: fit-content;
+                    position: relative;
+                    
+                }
+                span{
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                }
+                .CART:hover{
+                    display: flex;
+                }
+                .social{
+                    display: flex;
+                    gap: 30px;
+                }
+            </style>
+</body>
+</html>
